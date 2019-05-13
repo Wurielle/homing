@@ -1,0 +1,20 @@
+{
+    "name": "@bit/wurielle.pristine.webpack.dss-plugin",
+    "version": "0.0.12",
+    "homepage": "https://bit.dev/wurielle/pristine/webpack/dss-plugin",
+    "main": "dist/dss-webpack-plugin.js",
+    "dependencies": {
+        "dss": "1.0.4",
+        "read-multiple-files": "^2.0.0"
+    },
+    "devDependencies": {},
+    "peerDependencies": {},
+    "componentRootFolder": "components/webpack/dss-plugin",
+    "license": "SEE LICENSE IN LICENSE",
+    "bit": {
+        "env": {
+            "compiler": "bit.envs/compilers/babel@0.0.20",
+            "tester": "bit.envs/testers/jest@0.0.34"
+        }
+    }
+}

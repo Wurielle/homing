@@ -1,0 +1,3 @@
+[submodule "pristine"]
+	path = pristine
+	url = https://github.com/Wurielle/pristine.git
