@@ -22,7 +22,7 @@ if (process.platform === 'win32') {
 }
 
 // Standard scheme must be registered before the app is ready
-protocol.registerStandardSchemes(['app'], {secure: true});
+protocol.registerSchemesAsPrivileged ([{scheme: 'app', privileges: {secure: true}}]);
 
 store.dispatch('setPackage', pkg);
 log.info('Is Dev', isDevelopment);
@@ -75,6 +75,9 @@ function createWindows() {
 function createMainWindow() {
     // Main window
     const mainWindow = new BrowserWindow({
+        webPreferences: {
+            nodeIntegration: true
+        },
         width: 1366,
         height: 768,
         show: false,
