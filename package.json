@@ -52,7 +52,7 @@
     "babel-core": "7.0.0-bridge.0",
     "css-element-queries": "^1.2.0",
     "dotenv": "^8.0.0",
-    "electron": "^5.0.0",
+    "electron": "^7.2.4",
     "ionicons": "^4.5.8",
     "lodash": "^4.17.11",
     "loglevel": "^1.6.1",
